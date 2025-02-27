@@ -1,0 +1,13 @@
+altgraph==0.17.4
+appdirs==1.4.4
+biopython==1.83
+filelock==3.16.1
+macholib==1.16.3
+memory-profiler==0.61.0
+numpy==1.26.3
+objgraph==3.6.1
+packaging==24.2
+psutil==6.0.0
+pyinstaller==6.11.1
+pyinstaller-hooks-contrib==2024.10
+Pympler==1.1

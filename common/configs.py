@@ -1,0 +1,7 @@
+APP_NAME = "biopyview"
+
+DEFAULT_FONT_SIZE = 20
+MAX_FONT_SIZE = 32
+MIN_FONT_SIZE = 8
+
+DEFAULT_UNDO_LIMIT = -1  # no limit
