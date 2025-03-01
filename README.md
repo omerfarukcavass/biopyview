@@ -2,6 +2,7 @@
 
 ## Table of Contents:
 - [Introduction](#introduction)
+- [User Manual](#user-manual)
 - [Features](#features)
 - [License](#license)
 - [Requirements](#requirements)
@@ -13,7 +14,11 @@
 
 BioPyView is a sequence analysis platform that focuses on working with unaligned and aligned biological sequences, supporting large files, and designed to be easy to use. The application primarily benefits from [Biopython](https://github.com/biopython/biopython).
 
-This program was developed as part of my master's thesis at the Department of Computer Engineering, Boğaziçi University.
+**Note**: This program was developed as part of my master's thesis at the Department of Computer Engineering, Boğaziçi University.
+
+## User Manual
+
+You can access the user manual [here](https://omerfarukcavass.github.io/biopyview/).
 
 ## Features:
 - Supports common unaligned and aligned sequence file formats:
