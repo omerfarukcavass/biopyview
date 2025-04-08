@@ -1684,11 +1684,13 @@ class SearchManager:
             curr_search_gen = self.curr_search_motif.pssm.search(line, threshold=self.pssm_threshold, both=False)
 
         else:  # EXACT
+            s = Seq(line) if not isinstance(line, Seq) else line
             if self.fixed_length:  # fixed length
-                curr_search_gen = self.curr_search_motif.instances.search(line)
+                # curr_search_gen = self.curr_search_motif.instances.search(line)
+                curr_search_gen = s.search(self.curr_search_motif.instances)
 
             else:  # variable length
-                s = Seq(line) if not isinstance(line, Seq) else line
+                # s = Seq(line) if not isinstance(line, Seq) else line
                 curr_search_gen = s.search(self.curr_search_motif.instances)
         return curr_search_gen
 
